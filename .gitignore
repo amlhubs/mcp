@@ -3,3 +3,5 @@ dist/
 *.log
 .DS_Store
 .work/
+.npmrc.example
+package-lock.json
