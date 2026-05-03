@@ -1,0 +1,54 @@
+{
+  "name": "@amlhubs/mcp",
+  "version": "0.0.1",
+  "description": "Model Context Protocol (MCP) 2025-11-25 — LF AAIF specification typed as an AML metamodel: Server, Client, Transport (stdio | streamable-http | sse), Capabilities, Initialize/InitializeResult, JSON-RPC 2.0 envelope, Resource, Tool, Prompt, PromptMessage, Sampling, Logging, Roots, Completion, Elicitation, Authorization (OAuth2). Each MCP entity is surfaced as a CMOF-conformant Class with Property; closed enums as Enumeration; constraint shapes as Constraint with OpaqueExpression. Specializes UML 2.5.1 + MOF 2.5.1 metaclasses.",
+  "main": "dist/mcp.js",
+  "types": "dist/mcp.d.ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/mcp.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amlhubs/mcp.git",
+    "directory": "."
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-2025-11-25",
+    "lf-aaif",
+    "linux-foundation",
+    "agentic-ai",
+    "json-rpc",
+    "metamodel",
+    "metaclass",
+    "agentic-modeling-language",
+    "aml",
+    "agenihub",
+    "amlhubs"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@amlhubs/uml": "^0.0.1",
+    "@amlhubs/mof": "^0.0.1"
+  },
+  "devDependencies": {
+    "@amlhubs/uml": "^0.0.1",
+    "@amlhubs/mof": "^0.0.1",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}

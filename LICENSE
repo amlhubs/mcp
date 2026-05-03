@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 amlhubs
+
+NOTE — Licensing of the upstream specification:
+The Model Context Protocol (MCP) Specification 2025-11-25 is governed by the
+Linux Foundation AI & Agents Foundation (LF AAIF, formerly stewarded by
+Anthropic, Block, OpenAI) and is licensed under the Apache License 2.0. The
+specification text, JSON-Schema files, and reference TypeScript SDK that this
+package implements remain the intellectual property of their respective
+contributors and the LF AAIF, and are redistributed under their original
+Apache 2.0 terms inside the `spec/` directory.
+
+Licensing of this package:
+This `@amlhubs/mcp` TypeScript implementation — the wrapper code that re-types
+the MCP specification as an AML/CMOF-conformant metamodel surface — is
+released under the MIT License below.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
